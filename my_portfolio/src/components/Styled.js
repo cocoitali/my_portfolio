@@ -8,3 +8,14 @@ export const SideBarWrapper = styled.div`
   height: 100vh;
 `;
 
+export const NavLinksWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+`
+
+export const SideBarLink = styled.div`
+    :hover {
+        color: #0d98ba;
+    }
+`
